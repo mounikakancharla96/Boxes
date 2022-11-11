@@ -1,0 +1,74 @@
+/* Write your code here. */
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.heading {
+    color: #0f172a;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.para {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Bree Serif";
+    align-self: center;
+}
+.small-card {
+    height: 50px;
+    width: 50px;
+    background-color: #fbbf24;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.medium-card {
+    height: 100px;
+    width: 100px;
+    background-color: #38bdf8;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.large-card {
+    background-color: #ec4899;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+    .card {
+        flex-direction: row;
+    }
+    .heading {
+        font-size: 48px;
+    }
+    .para {
+        font-size: 20px;
+    }
+}
